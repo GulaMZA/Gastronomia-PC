@@ -24,8 +24,8 @@
 
 </head>
 <body> 
-<h1 style="position: relative; margin-top: -3px; margin-left: 20px; z-index: 2">Mapa Gulero</h1>
-<div id="map" class="map map-home" style="margin:6px 0 8px 0;height:385px;"></div> 
+<h1 style="position: relative; margin-top: -3px; margin-left: 50px; z-index: 2">Mapa Gulero</h1>
+<div id="map" class="map map-home" style="margin:6px 0 8px 0;height:718px;"></div> 
 <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 <script src="scripts/Leaflet.PolylineMeasure.js"></script>
 <script type="text/javascript" src="scripts/.js"></script>
@@ -236,7 +236,7 @@ var mapabase_argenmap = new L.TileLayer.WMTS( 'https://wms.ign.gob.ar/geoserver/
 	 	/* CREACIÓN DEL MAPA CON BASE LAYERS Y OVERLAYS */
 	var map = L.map('map', {
 			layers: [mapabase_argenmap,]
-		}).setView([-32.8928, -68.8502], 13);
+		}).setView([-32.8928, -68.8502], 14);
 
 /* CREACIÓN DEL LAYERS CONTROL */
 	var baseMaps = {
