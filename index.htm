@@ -34,15 +34,16 @@
 <script type="text/javascript" src="scripts/Cervecerias.js"></script>
 <script type="text/javascript" src="scripts/Sushi.js"></script>
 <script type="text/javascript" src="scripts/EntrePanes.js"></script>
-<script type="text/javascript" src="scripts/alplato.js"></script>
+<script type="text/javascript" src="scripts/Alplato.js"></script>
 <script type="text/javascript" src="scripts/Tragos.js"></script>
-<script type="text/javascript" src="scripts/Vino.js"></script>
+<script type="text/javascript" src="scripts/Vinos.js"></script>
 <script type="text/javascript" src="scripts/Pastas.js"></script>
 <script type="text/javascript" src="scripts/Pizza.js"></script>
 <script type="text/javascript" src="scripts/Panaderia.js"></script>
 <script type="text/javascript" src="scripts/Carnes.js"></script>
 <script type="text/javascript" src="scripts/Vegano.js"></script>
 <script type="text/javascript" src="scripts/Alfajor.js"></script>
+<script type="text/javascript" src="scripts/Sunset.js"></script>
 <script src="scripts/leaflet-tilelayer-wmts.js"></script>
 
 <script src="https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js"></script>
@@ -83,6 +84,7 @@ var mapabase_argenmap = new L.TileLayer.WMTS( 'https://wms.ign.gob.ar/geoserver/
 		iconococktail= new iconoComun({iconUrl:'img/market-icon-2x-cocktail.png'});
 		iconopastas= new iconoComun({iconUrl:'img/market-icon-2x-pastas.png'});
 		iconopizza= new iconoComun({iconUrl:'img/market-icon-2x-pizza.png'});
+		iconosunset= new iconoComun({iconUrl:'img/market-icon-2x-sunset.png'});
 	  
 	   
 	
@@ -198,6 +200,14 @@ var mapabase_argenmap = new L.TileLayer.WMTS( 'https://wms.ign.gob.ar/geoserver/
 	  pointToLayer: crearIconocarne
 	}
 	
+	function crearIconosunset (feature, latlng) {
+		return L.marker(latlng, { icon: iconosunset })
+	}
+
+        var asignarIconosusnet = {
+	  pointToLayer: crearIconosunset
+	}
+	
 	
      /* POPUPS */
 	
@@ -222,8 +232,8 @@ var mapabase_argenmap = new L.TileLayer.WMTS( 'https://wms.ign.gob.ar/geoserver/
 	 cerv= L.geoJson(Cervecerias, { pointToLayer: crearIconocerveza, onEachFeature: agregarPopupfarmacias});
 	 sush= L.geoJson(Sushi, { pointToLayer: crearIconosushi, onEachFeature: agregarPopupfarmacias});
 	 lomo= L.geoJson(EntrePanes, { pointToLayer: crearIconoentrepanes, onEachFeature: agregarPopupfarmacias});
-	 vin= L.geoJson(Vino, { pointToLayer: crearIconovino, onEachFeature: agregarPopupfarmacias});
-	 plat= L.geoJson(alplato, { pointToLayer: crearIconoalplato, onEachFeature: agregarPopupfarmacias});
+	 vin= L.geoJson(Vinos, { pointToLayer: crearIconovino, onEachFeature: agregarPopupfarmacias});
+	 plat= L.geoJson(Alplato, { pointToLayer: crearIconoalplato, onEachFeature: agregarPopupfarmacias});
 	 trag= L.geoJson(Tragos, { pointToLayer: crearIconococktail, onEachFeature: agregarPopupfarmacias});
 	 past= L.geoJson(Pastas, { pointToLayer: crearIconopastas, onEachFeature: agregarPopupfarmacias});
 	 pizz= L.geoJson(Pizza, { pointToLayer: crearIconopizza, onEachFeature: agregarPopupfarmacias});
@@ -231,8 +241,8 @@ var mapabase_argenmap = new L.TileLayer.WMTS( 'https://wms.ign.gob.ar/geoserver/
 	 carn= L.geoJson(Carnes, { pointToLayer: crearIconocarne, onEachFeature: agregarPopupfarmacias});
 	 veg= L.geoJson(Vegano, { pointToLayer: crearIconovegano, onEachFeature: agregarPopupfarmacias});
 	 alfj= L.geoJson(Alfajor, { pointToLayer: crearIconoalfajor, onEachFeature: agregarPopupfarmacias});
+	 sun= L.geoJson(Sunset, { pointToLayer: crearIconosunset, onEachFeature: agregarPopupfarmacias});
 
-	 
 	 	/* CREACIÓN DEL MAPA CON BASE LAYERS Y OVERLAYS */
 	var map = L.map('map', {
 			layers: [mapabase_argenmap,]
@@ -256,6 +266,7 @@ var mapabase_argenmap = new L.TileLayer.WMTS( 'https://wms.ign.gob.ar/geoserver/
 				"Panadería-Pastelería":pan,
 				"Pastas":past,
 				"Pizza":pizz,
+				"Sunset de verano":sun,
 				"Sushi":sush,
 				"Tragos":trag,
 				"Vegetariano-Vegano":veg,
