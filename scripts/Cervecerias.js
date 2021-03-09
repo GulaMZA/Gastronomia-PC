@@ -16,6 +16,7 @@ var Cervecerias ={
 { "type": "Feature", "properties": { "id": null, "Nombre": "Believe Irish Pub", "Descrip": "Cervecería. Hamburguesas, pizzas, papas." }, "geometry": { "type": "Point", "coordinates": [ -68.843617236633875, -32.894312923547957 ] } },
 { "type": "Feature", "properties": { "id": null, "Nombre": "The Beer Club", "Descrip": "Jardín cervecero. Cerveza tirada y cócteles. Hamburguesas, hot dogs, pizzas, papas." }, "geometry": { "type": "Point", "coordinates": [ -68.882884274358872, -32.98534561308378 ] } },
 { "type": "Feature", "properties": { "id": null, "Nombre": "Barijho Beer Garden", "Descrip": "Jardín cervecero. Cerveza tirada y cócteles. Hamburguesas y papas." }, "geometry": { "type": "Point", "coordinates": [ -68.885967476750579, -32.990418305491744 ] } },
-{ "type": "Feature", "properties": { "id": null, "Nombre": "Antares", "Descrip": "Cerveza artesanal. Papas, hamburguesas." }, "geometry": { "type": "Point", "coordinates": [ -68.852149886779841, -32.89275564420074 ] } }
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Antares", "Descrip": "Cerveza artesanal. Papas, hamburguesas." }, "geometry": { "type": "Point", "coordinates": [ -68.852149886779841, -32.89275564420074 ] } },
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Patagonia (Shopping)", "Descrip": "Cervecería. Hamburguesas, pizzas, papas. Opciones vegetarianas." }, "geometry": { "type": "Point", "coordinates": [ -68.7998287546027, -32.899384045585286 ] } }
 ]
 }
