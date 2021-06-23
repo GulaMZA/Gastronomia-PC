@@ -9,6 +9,8 @@ var Tragos ={
 { "type": "Feature", "properties": { "id": null, "Nombre": "Gingger", "Descrip": "Restó y cócteles de autor." }, "geometry": { "type": "Point", "coordinates": [ -68.853716614974687, -32.892493612918067 ] } },
 { "type": "Feature", "properties": { "id": null, "Nombre": "Taverna", "Descrip": "Cerveza y cócteles. Pizzas originales, lomos, opciones vegetarianas. Abierto únicamanete en la temporada otoño- invierno." }, "geometry": { "type": "Point", "coordinates": [ -68.885047589293748, -32.99001048241832 ] } },
 { "type": "Feature", "properties": { "id": null, "Nombre": "Bar Oculto", "Descrip": "Cócteles y restó. Jueves de degustaciones." }, "geometry": { "type": "Point", "coordinates": [ -68.843793364929567, -32.906922963976655 ] } },
-{ "type": "Feature", "properties": { "id": null, "Nombre": "Bardot", "Descrip": "Restó, bar y vinos." }, "geometry": { "type": "Point", "coordinates": [ -68.849305989137505, -32.887776669584035 ] } }
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Bardot", "Descrip": "Restó, bar y vinos." }, "geometry": { "type": "Point", "coordinates": [ -68.849305989137505, -32.887776669584035 ] } },
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Soderini Vermutería", "Descrip": "Resto, vermutería y cócteles. Rica comida y buenos tragos. Sunset con DJ en vivo." }, "geometry": { "type": "Point", "coordinates": [ -68.85300982895545, -32.892771366090393 ] } },
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Flora Bistro", "Descrip": "Platos originales, jardín ideal para los dias de verano. Barra de cócteles y variedad de vinos." }, "geometry": { "type": "Point", "coordinates": [ -68.884552786579377, -32.98853465493022 ] } }
 ]
 }

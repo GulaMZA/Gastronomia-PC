@@ -1,6 +1,6 @@
 var Alplato ={
 "type": "FeatureCollection",
-"name": "alplato",
+"name": "Alplato",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "id": null, "Nombre": "Bardot", "Descrip": "Pastas, carnes, cócteles y vinos." }, "geometry": { "type": "Point", "coordinates": [ -68.849305989138045, -32.8877757698802 ] } },
@@ -28,6 +28,11 @@ var Alplato ={
 { "type": "Feature", "properties": { "id": null, "Nombre": "Montecatini (Centro)", "Descrip": "Variedad de pastas, vinos y postres." }, "geometry": { "type": "Point", "coordinates": [ -68.8426121566864, -32.884473306822869 ] } },
 { "type": "Feature", "properties": { "id": null, "Nombre": "La Marchigiana (Centro)", "Descrip": "Comida estilo italiana. Pastas con carne y vegetarianas, buenos vinos y excelente atención." }, "geometry": { "type": "Point", "coordinates": [ -68.841955504453949, -32.88482556341404 ] } },
 { "type": "Feature", "properties": { "id": null, "Nombre": "Casa Vigil (Il Mercato)", "Descrip": "Carnes a la parrilla, pastas, risotos. Cócteles y excelentes vinos de El Enemigo." }, "geometry": { "type": "Point", "coordinates": [ -68.79259979302438, -32.992761515081824 ] } },
-{ "type": "Feature", "properties": { "id": null, "Nombre": "Republica", "Descrip": "Tapas, sándwiches y comidas al plato. Cócteles y excelentes vinos de El Enemigo por copa o por botella." }, "geometry": { "type": "Point", "coordinates": [ -68.859282693902088, -32.95551665948102 ] } }
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Republica", "Descrip": "Tapas, sándwiches y comidas al plato. Cócteles y excelentes vinos de El Enemigo por copa o por botella." }, "geometry": { "type": "Point", "coordinates": [ -68.859282693902088, -32.95551665948102 ] } },
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Bruselas", "Descrip": "Excelentes y abundantes brunch. Variedad en opciones vegetarianas, veganas y sin gluten." }, "geometry": { "type": "Point", "coordinates": [ -68.849542993975646, -32.888948093269136 ] } },
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Soderini Vermutería", "Descrip": "Restó, vermutería y cócteles. Rica comida y buenos tragos. Sunset con DJ en vivo." }, "geometry": { "type": "Point", "coordinates": [ -68.85300982895545, -32.892769634672355 ] } },
+{ "type": "Feature", "properties": { "id": null, "Nombre": "La Lore Pasta-Bar", "Descrip": "Restó con especialidad en pastas totalemente caseras y atendido por sus dueños. Variedad en opciones vegetarianas. Muy recomendable." }, "geometry": { "type": "Point", "coordinates": [ -69.348770883054925, -32.593312353160599 ] } },
+{ "type": "Feature", "properties": { "id": null, "Nombre": "A16 Wine & Deli", "Descrip": "Espacio Gastronómico de la Bodega A16. Menú de pasos con vino, excelente atención." }, "geometry": { "type": "Point", "coordinates": [ -68.860588363308835, -32.886490360190891 ] } },
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Flora Bistro", "Descrip": "Platos originales, jardín ideal para los dias de verano. Barra de cócteles y variedad de vinos." }, "geometry": { "type": "Point", "coordinates": [ -68.884557029065562, -32.98853465493022 ] } }
 ]
 }

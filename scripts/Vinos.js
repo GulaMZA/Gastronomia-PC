@@ -1,6 +1,6 @@
 var Vinos ={
 "type": "FeatureCollection",
-"name": "Vino",
+"name": "Vinos",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "id": null, "Nombre": "Cabrera Charif Wine House", "Imagen": "C:\\Users\\igdiaz\\Downloads\\Mapa Gula\\Gula\\img\\Charif", "Descrip": "Bar de vinos. Vinos nacionales e internacionales por copa o botella, maridados con variedad de platos, tapas y postres. Recomendación de los guleros: Suspiro limeño." }, "geometry": { "type": "Point", "coordinates": [ -68.856536821446824, -32.891969152617897 ] } },
@@ -47,6 +47,7 @@ var Vinos ={
 { "type": "Feature", "properties": { "id": null, "Nombre": "Bendito Rufian", "Imagen": null, "Descrip": "Bar de vinos y café de especialidad. Vinos por copa y promciones 2x1. Picadas con carne y vegetarianas." }, "geometry": { "type": "Point", "coordinates": [ -68.822415538366343, -32.915496156805951 ] } },
 { "type": "Feature", "properties": { "id": null, "Nombre": "Casa Vigil El Enemigo", "Imagen": null, "Descrip": "Almuerzo de 7 o 9 pasos con opción vegetariana. Excelentes vinos, degustación en variedad y en cantidad. Excelente atención." }, "geometry": { "type": "Point", "coordinates": [ -68.724159013841742, -33.044458864217923 ] } },
 { "type": "Feature", "properties": { "id": null, "Nombre": "Casa Petrini", "Imagen": null, "Descrip": "Bodega, restó y alojamiento. Menú de 4 pasos con o sin vino. Opciones vegetarianas. Hermoso lugar y comida de calidad." }, "geometry": { "type": "Point", "coordinates": [ -69.222708889032063, -33.471735415880893 ] } },
-{ "type": "Feature", "properties": { "id": null, "Nombre": "Bodega Vistandes", "Imagen": null, "Descrip": null }, "geometry": { "type": "Point", "coordinates": [ -68.758507595518765, -33.024420812590591 ] } }
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Bodega Vistandes", "Imagen": null, "Descrip": null }, "geometry": { "type": "Point", "coordinates": [ -68.758507595518765, -33.024420812590591 ] } },
+{ "type": "Feature", "properties": { "id": null, "Nombre": "A16 Wine & Deli", "Imagen": null, "Descrip": "Espacio Gastronómico de la Bodega A16. Menú de pasos con vino, excelente atención." }, "geometry": { "type": "Point", "coordinates": [ -68.860588363308835, -32.886487427195028 ] } }
 ]
 }

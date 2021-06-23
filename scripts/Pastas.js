@@ -15,6 +15,7 @@ var Pastas ={
 { "type": "Feature", "properties": { "id": null, "Nombre": "El Mercadito (Centro)", "Descrip": "Pastas sin carne. Sandwiches, risotos, ensaladas." }, "geometry": { "type": "Point", "coordinates": [ -68.858214347739874, -32.891673029514308 ] } },
 { "type": "Feature", "properties": { "id": null, "Nombre": "El Mercadito (Chacras)", "Descrip": "Pastas sin carne. Sandwiches, risotos, ensaladas." }, "geometry": { "type": "Point", "coordinates": [ -68.885638193415375, -32.989856417940075 ] } },
 { "type": "Feature", "properties": { "id": null, "Nombre": "Nipoti (Shopping)", "Descrip": "Pizzas, pastas, paninis, tragos." }, "geometry": { "type": "Point", "coordinates": [ -68.799652079413534, -32.899748514513831 ] } },
-{ "type": "Feature", "properties": { "id": null, "Nombre": "Casa Vigil (Palmares)", "Descrip": "Carnes, pastas, risotos, sushi. Vinos y cócteles." }, "geometry": { "type": "Point", "coordinates": [ -68.859210979127553, -32.955218978630697 ] } }
+{ "type": "Feature", "properties": { "id": null, "Nombre": "Casa Vigil (Palmares)", "Descrip": "Carnes, pastas, risotos, sushi. Vinos y cócteles." }, "geometry": { "type": "Point", "coordinates": [ -68.859210979127553, -32.955218978630697 ] } },
+{ "type": "Feature", "properties": { "id": null, "Nombre": "La Lore Pasta-Bar", "Descrip": null }, "geometry": { "type": "Point", "coordinates": [ -69.348767231759922, -32.593316004455595 ] } }
 ]
 }
